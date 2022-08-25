@@ -1,0 +1,40 @@
+/*body{
+    background-image: linear-gradient(to bottom, #647BD1, #F59EFF);
+    height: 844px;
+    width: 390px;
+
+}*/
+.body{
+    background-image: linear-gradient(to bottom, #647BD1, #F59EFF);
+    height: 844px;
+    width: 390px;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 5%;
+    border-radius: 30px;
+    justify-content: center;
+}
+h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 44px;
+    color: white;
+}
+.top{
+    width: 180px;
+    height: 128px;
+    padding-bottom: 5px;
+    margin-top: 55%;
+}
+a:link {
+    color: none;
+  }
+  a:visited {
+    color: none;
+  }
+  a:hover {
+    color: none;
+    text-decoration: none;
+  }
+  a:active {
+    color: none;
+  }
