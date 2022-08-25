@@ -126,8 +126,9 @@ h6{
     overflow-x: scroll;
     overflow-y: hidden;
     width: 390px;
-
-  
+  }
+  .wrap img{
+      width: 125px;
   }
   .inner {
     position: relative;
@@ -135,10 +136,35 @@ h6{
     color: black;
     width: 1080px;
   }
-  
+
   section {
+    font-family: 'Inter', sans-serif;
     position: relative;
     font-size: 12px;
     float: left;
   
+  }
+  .draw{
+    background-color: rgba(0,0,0, .1);
+    border-radius: 10px;
+  }
+  .walk{
+    background-color: rgba(0,0,0, .1);
+    border-radius: 10px;
+  }
+  .dance{
+    background-color: rgba(0,0,0, .1);
+    border-radius: 10px;
+  }
+  .meditate{
+    background-color: rgba(0,0,0, .1);
+    border-radius: 10px;
+  }
+  .color{
+    background-color: rgba(0,0,0, .1);
+    border-radius: 10px;
+  }
+  .read{
+    background-color: rgba(0,0,0, .1);
+    border-radius: 10px;
   }
