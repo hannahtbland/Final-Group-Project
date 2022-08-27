@@ -143,7 +143,7 @@ p{
     font-family: roboto medium;
     font-size: 15px;
 }
-.day{v
+.day{
     color: black;
     opacity: .5;
     font-size: 18px;
@@ -163,11 +163,7 @@ p{
     font-family: roboto light;
 }
 .breakact{
-<<<<<<< HEAD
-    padding-top: 25px
-=======
-    padding-top: 25px;;
->>>>>>> 6435db1e3145bcca9f66c6e8ce5aeda7ed1afb90
+    padding-top: 25px;
 }
 
 /* .day{
@@ -189,11 +185,6 @@ h6{
     overflow-y: hidden;
     width: 370px;
     margin-right: 5%;
-<<<<<<< HEAD
-    /* margin-left: 8%;
-=======
-    margin-left: 4%; */
->>>>>>> 6435db1e3145bcca9f66c6e8ce5aeda7ed1afb90
     padding-bottom: 10px;
     margin-left: 28px;
     margin-top: 30px;
