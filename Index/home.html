@@ -3,40 +3,71 @@
     <head>
         <title>SpaceBreak</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link href="../CSS/home.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
+        <script src="../JS/index.js" defer></script>
     </head>
     <body>
-        <!--Current Break-->
         <div class="body">
-            <div class="container text-center">
-                <div class="row">
-                  <div class="col menu">
-                    <img src="../Images/Menu.png">
-                  </div>
-                  <div class="col logo">
-                    <img src="../Images/logo.png">
-                  </div>
-                  <div class="col search">
-                    <img src="../Images/search.png">
-                  </div>
+            <div class="side-menu">
+                <br/>
+                <img src="../Images/close.png" class="close-button" />
+                <br/>
+                <div class="side-menu-list">
+                    <div class="side-menu-row">
+                        <div class="side-menu-icon"><img src="../Images/icon-rocket.png" /></div>
+                        <div>Start a random activity</div>
+                    </div>
+                    <div class="side-menu-row">
+                        <div class="side-menu-icon"><img src="../Images/icon-activities.png" /></div>
+                        <div>See All Activities</div>
+                    </div>
+                    <div class="side-menu-row">
+                        <div class="side-menu-icon"><img src="../Images/icon-favorite.png" /></div>
+                        <div>Favorite Activities</div>
+                    </div>
+                    <div class="side-menu-row">
+                        <div class="side-menu-icon"><img src="../Images/icon-track.png" /></div>
+                        <div>Track your breaks</div>
+                    </div>
+                    <div class="side-menu-row">
+                        <div class="side-menu-icon"><img src="../Images/icon-community.png" /></div>
+                        <div>Community</div>
+                    </div>
+                    <div class="side-menu-row">
+                        <div class="side-menu-icon"><img src="../Images/icon-privacy.png" /></div>
+                        <div>Privacy</div>
+                    </div>
+                    <div class="side-menu-row">
+                        <div class="side-menu-icon"><img src="../Images/icon-account.png" /></div>
+                        <div>My Account</div>
+                    </div>
+                    <div class="side-menu-row">
+                        <div class="side-menu-icon"><img src="../Images/icon-settings.png" /></div>
+                        <div>Settings</div>
+                    </div>
                 </div>
+            </div>
+            <div class="top"><img src="../Images/Iphone11.png"></div>
+        <div class="container text-center">
+            <div class="row">
+              <div class="col menu hamburger-menu-icon">
+                <img src="../Images/Menu.png">
               </div>
-              <div class="box">
-               <div class="words">
-                <h5>Break Time!</h5>
-                <p class="sub">Next Activity:</p>
-                <p class="cont">Journaling</p>
-               </div>
-               <div class="love">
-                   <img src="../Images/loving.png">
-               </div>
-        </div>
+              <div class="col logo">
+                <img src="../Images/logo.png">
+              </div>
+              <div class="col search">
+                <img src="../Images/search.png">
+              </div>
+            </div>
+          </div>
         <!--Visual Breaks-->
-        <div>
-        <h6>Your Break Times</h6>
+        <div class="bh">
+            <h6>Your Break Times</h6>
         <div class="breaks">
             <div class="amount">
                 <h4>3</h4>
@@ -60,18 +91,102 @@
             </div>
         </div>
         </div>
+        <!--Current Break-->
+     <div class="breakact">
+        <h6>Break Activites</h6>
+         <a href="../Index/act.html">
+        <div class="box">
+           <div class="words">
+            <h5>Break Time!</h5>
+            <p class="sub">Next Activity:</p>
+            <p class="cont">Journaling</p>
+           </div>
+           <div class="love">
+               <img src="../Images/react-group-21.png">
+           </div>
+           </div>
+           </a>
+    </div>
         <!--Slider-->
+    <div class="activity">
         <div class="wrap">
             <div class="inner">
-            <section><div class="draw"><img src="../Images/Draw.png"><figcaption>Draw</figcaption></div></section>
-            <section><div class="meditate"><img src="../Images/meditate.png"><figcaption>Meditate</figcaption></div></section>
-            <section><div class="color"><img src="../Images/Color.png"><figcaption>Color</figcaption></div></section>
-              <section><div class="walk"><img src="../Images/Walk.png"><figcaption>Walk</figcaption></div></section>
-            <section><div class="dance"><img src="../Images/Dance.png"><figcaption>Dance</figcaption></section>
-            <section><div class="read"><img src="../Images/Read.png"><figcaption>Reading</figcaption></section>
+                <section>
+                <div class="over">
+                    <div class="draw">
+                        <img src="../Images/Draw.png">
+                        <figcaption>Draw</figcaption>
+                    </div>
+                </div>
+                </section>
+                <section>
+                    <div class="over">
+                    <div class="meditate">
+                        <img src="../Images/meditate.png">
+                        <figcaption>Meditate</figcaption>
+                    </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="over">
+                    <div class="color">
+                        <img src="../Images/Color.png">
+                        <figcaption>Color</figcaption>
+                    </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="over">
+                    <div class="walk">
+                        <img src="../Images/Walk.png">
+                        <figcaption>Walk</figcaption>
+                    </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="over">
+                    <div class="dance">
+                        <img src="../Images/Dance.png">
+                        <figcaption>Dance</figcaption>
+                    </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="over">
+                    <div class="read">
+                        <img src="../Images/Read.png">
+                        <figcaption>Reading</figcaption>
+                    </div>
+                    </div>
+                </section>
             </div>
+        </div>
+    </div>
+          
+          <!--bottom nav-->
+    
+          <div class="navimg">
+              <img src="../Images/Footer.png">
           </div>
-
+          
+            <!--<div class="nav">
+              <div class="ho">
+                <img src="../Images/Home.png">
+              </div>
+              <div class="member">
+                <img src="../Images/Member.png">
+              </div>
+              <div class="rocket">
+                <img src="../Images/rocket button.png">
+              </div>
+              <div class="likes">
+                <img src="../Images/Likes Icon.png">
+              </div>
+              <div class="profile">
+                <img src="../Images/User.png">
+              </div>
+          </div>-->
+         
         </div>
     </body>
 </html>

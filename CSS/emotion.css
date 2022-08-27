@@ -1,0 +1,116 @@
+.body{
+    height: 844px;
+    width: 390px;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 5%;
+    border-radius: 15px;
+    justify-content: center;
+    border-style: solid;
+    background-color: rgba(137, 124, 240,.3);
+    font-family: 'Inter', sans-serif;
+}
+button{font-family: 'Roboto', sans-serif;}
+.menu{
+    padding-top: 7px;
+}
+.logo{
+    padding-top: 13px;
+}
+.search{
+    padding-top: 11px;
+}
+.feels{
+    width: 338px;
+    height: 575px;
+    background-color: white;
+    border-radius: 20px;
+   margin-top: 13%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.close{
+    margin: 5%;
+}
+.close img{
+    width: 32px;
+}
+.close a:hover {
+    color: none;
+    text-decoration: none;
+  }
+.planet{
+    padding-top: 100px;
+}
+.pplanet{
+    padding: 25px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: grey;
+}
+.faces{
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-areas: "crying sad happy lol smiling";
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.navimg img{
+    padding-top: 5px;
+    width: 386px;
+    border-radius: 12px;
+}
+.faces a:hover{
+    box-shadow: 4px 4px 2px 2px #D497F5;
+    border-radius: 15px;
+}
+
+.side-menu {
+    height: 844px;
+    width: 222px;
+    background-color: #897CF0;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    position: absolute;
+    transform: translateX(-100%);
+    transition: transform 0.2s;
+    visibility: hidden;
+    z-index: 50;
+}
+
+.showMenu {
+    transform: translateX(0);
+    visibility: visible;
+}
+
+.side-menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.close-button {
+    height: 30px;
+    width: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.side-menu-row {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+}
+
+.side-menu-icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
