@@ -10,6 +10,7 @@
     background-image: url("../Images/Background\ purple.png");
     background-repeat: no-repeat;
     background-position: bottom;
+    font-family: 'Inter', sans-serif;
 }
 
 button{font-family: 'Roboto', sans-serif;}
