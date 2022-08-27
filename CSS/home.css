@@ -26,6 +26,9 @@ h1{
 .logo{
     padding-top: 13px;
 }
+.logoImg{
+    width:150px;
+  }
 .search{
     padding-top: 11px;
 }

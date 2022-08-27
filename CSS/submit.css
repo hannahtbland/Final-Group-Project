@@ -17,6 +17,9 @@ button{font-family: 'Roboto', sans-serif;}
 .logo{
     padding-top: 13px;
 }
+.logoImg{
+    width:150px;
+  }
 .search{
     padding-top: 11px;
 }

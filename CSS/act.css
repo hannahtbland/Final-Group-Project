@@ -9,7 +9,8 @@
     border-style: solid;
     background-image: url("../Images/Background\ purple.png");
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-size:390px 840px;
+    background-position: bottom; 
     font-family: 'Inter', sans-serif;
 }
 
@@ -20,6 +21,9 @@ button{font-family: 'Roboto', sans-serif;}
 }
 .logo{
     padding-top: 13px;
+}
+.logoImg{
+  width:150px;
 }
 .search{
     padding-top: 11px;
@@ -52,9 +56,9 @@ button{font-family: 'Roboto', sans-serif;}
   }
   .prompts{
       font-family: 'Inter', sans-serif;
-      padding-top: 15px;
-      
-
+      padding-top: 10px;
+      padding-left:20px;
+      padding-right:20px;
   }
   .prompts h4{
       font-size: 20px;
@@ -76,7 +80,8 @@ button{font-family: 'Roboto', sans-serif;}
     background-color: #897CF0;
     margin-left: 7%;
     margin-right: 7%;
-    margin-top: 8%;
+    margin-top: 7%;
+    box-shadow: 0px 4px 20px 0px rgba(70,64,120,0.4);
   }
   .entry h6{
       padding-top: 10px;
@@ -90,12 +95,16 @@ button{font-family: 'Roboto', sans-serif;}
       border-radius: 15px;
       margin-left: 4%;
       margin-right: 4%;
+      color:#A1A1A1;
+      text-align:left;
+      padding-left:10px;
+      padding-top:10px;
   }
   .save{
     margin-top: 235px;
   }
   .cameraPic{
-    padding-right:120px;
+    padding-right:140px;
     height: 40px;
   }
   .doneBtn{
@@ -115,7 +124,7 @@ button{font-family: 'Roboto', sans-serif;}
 }
 .timerGrid{
     display:grid;
-    padding-top:20px;
+    padding-top:15px;
     grid-template-columns:1fr 1fr 1fr;
     grid-template-areas:
     "toggle timer animatedTimer" ;
@@ -125,6 +134,9 @@ button{font-family: 'Roboto', sans-serif;}
   }
   .timer{
     grid-area:timer;
+  }
+  .timerText{
+    line-height: 2px;
   }
   .timerBtn{
     background:#897CF0;
@@ -207,6 +219,8 @@ button{font-family: 'Roboto', sans-serif;}
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    border: 3px #897CF0;
+    border-style:solid;
     position: relative;
     left: 50%;
     top: 50%;
@@ -222,9 +236,10 @@ button{font-family: 'Roboto', sans-serif;}
 }
 .wave:after{
     content: "";
-    width: 80px;
-    height: 80px;
+    width: 75px;
+    height: 75px;
     background: rgba(255, 255, 255, 0.8);
+    fill-opacity: 0.5;
     position: absolute;
     left: 50%;
     top: 0;
