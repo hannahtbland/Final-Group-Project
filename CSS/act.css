@@ -85,6 +85,22 @@
       margin-left: 4%;
       margin-right: 4%;
   }
+  .save{
+    margin-top: 235px;
+  }
+  .cameraPic{
+    padding-right:120px;
+  }
+  .doneBtn{
+    background-color:#897CF0 ;
+    color:white;
+    border-radius:10px ;
+    padding-left: 30px;
+    padding-right:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border:0;
+  }
   .navimg img{
     margin-top: 17%;
     width: 386px;
