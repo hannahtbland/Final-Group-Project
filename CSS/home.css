@@ -7,8 +7,9 @@
     border-radius: 15px;
     justify-content: center;
     border-style: solid;
+    font-family: 'Inter', sans-serif;
 }
-
+button{font-family: 'Roboto', sans-serif;}
 h1{
     font-family: 'Inter', sans-serif;
     font-size: 44px;

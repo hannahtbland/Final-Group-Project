@@ -8,7 +8,9 @@
     justify-content: center;
     border-style: solid;
     background-color: rgba(137, 124, 240,.3);
+    font-family: 'Inter', sans-serif;
 }
+button{font-family: 'Roboto', sans-serif;}
 .menu{
     padding-top: 7px;
 }
