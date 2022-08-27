@@ -18,7 +18,7 @@
 .search{
     padding-top: 11px;
 }
-.feels{
+.endBreak{
     width: 338px;
     height: 575px;
     background-color: white;
@@ -37,7 +37,7 @@
     color: none;
     text-decoration: none;
   }
-.planet{
+.heartImg{
     padding-top: 100px;
 }
 .pplanet{
@@ -46,12 +46,25 @@
     font-size: 20px;
     color: grey;
 }
-.faces{
-    display:grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-areas: "crying sad happy lol smiling";
-    margin-left: 5%;
-    margin-right: 5%;
+.continueBtn{
+    background-color:#897CF0;
+    padding-left:20%;
+    padding-right:20%;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius:15px;
+    border:0;
+    color:white;
+}
+.endSaveBtn{
+    background-color:#D0F1FF;
+    padding-left: 53px;
+    padding-right:53px;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius:15px;
+    border:0;
+    color:black;
 }
 .navimg img{
     padding-top: 5px;
