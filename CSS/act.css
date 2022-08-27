@@ -11,6 +11,9 @@
     background-repeat: no-repeat;
     background-position: bottom;
 }
+
+button{font-family: 'Roboto', sans-serif;}
+
 .menu{
     padding-top: 7px;
 }
@@ -49,17 +52,19 @@
   .prompts{
       font-family: 'Inter', sans-serif;
       padding-top: 15px;
+      
 
   }
   .prompts h4{
       font-size: 20px;
       font-weight: bolder;
+      font-style: regular;
   }
   .prompts p{
       font-size: 14px;
       padding-left: 15px;
       padding-right: 15px;
-      font-weight: lighter;
+      font-weight: regular;
       color: grey;
   }
   .entry{
@@ -119,10 +124,16 @@
   }
   .timer{
     grid-area:timer;
+  }
+  .timerBtn{
     background:#897CF0;
     color:white;
     width:auto;
     border-radius:15px;
+    border:none;
+    padding-right:30px;
+    padding-left:30px;
+    padding-top:7px;
   }
   .animatedTimer{
     grid-area:animatedTimer;
