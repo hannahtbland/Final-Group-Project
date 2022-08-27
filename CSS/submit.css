@@ -38,7 +38,10 @@
     text-decoration: none;
   }
 .heartImg{
-    padding-top: 100px;
+    padding-top: 80px;
+}
+.heartImage{
+    width:250px;
 }
 .pplanet{
     padding: 25px;
@@ -55,6 +58,9 @@
     border-radius:15px;
     border:0;
     color:white;
+}
+.endWithout{
+    padding-top:10px;
 }
 .endSaveBtn{
     background-color:#D0F1FF;
