@@ -1,0 +1,92 @@
+.body{
+    height: 844px;
+    width: 390px;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 5%;
+    border-radius: 15px;
+    justify-content: center;
+    border-style: solid;
+    background-image: url("../Images/Background\ purple.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.menu{
+    padding-top: 7px;
+}
+.logo{
+    padding-top: 13px;
+}
+.search{
+    padding-top: 11px;
+}
+.back{
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin-left: 6%;
+    padding-top: 8px;;
+
+}
+.back a:link {
+    color: grey;
+  }
+
+.back a:visited {
+    color: grey;
+  }
+.bacl a:hover {
+    color: grey;
+    text-decoration: none;
+  }
+.back a:active {
+    color: grey;
+  }
+  .prompts{
+      font-family: 'Inter', sans-serif;
+      padding-top: 15px;
+
+  }
+  .prompts h4{
+      font-size: 20px;
+      font-weight: bolder;
+  }
+  .prompts p{
+      font-size: 14px;
+      padding-left: 15px;
+      padding-right: 15px;
+      font-weight: lighter;
+      color: grey;
+  }
+  .entry{
+    font-family: 'Inter', sans-serif;
+    width: 335px;
+    height: 375px;
+    border-radius: 20px;
+    background-color: #897CF0;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 8%;
+  }
+  .entry h6{
+      padding-top: 10px;
+      font-size: 18px;
+      color: white;
+  }
+  .journal{
+      width: 310px;
+      height: 322px;
+      background-color: white;
+      border-radius: 15px;
+      margin-left: 4%;
+      margin-right: 4%;
+  }
+  .navimg img{
+    margin-top: 17%;
+    width: 386px;
+    border-radius: 12px;
+}

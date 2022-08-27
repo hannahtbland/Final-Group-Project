@@ -147,7 +147,7 @@ h6{
     position: relative;
     /*width will depend on the total with of the sectioin blocks to contain*/
     color: black;
-    width: 928px;
+    width: 990px;
   }
 
   section {
@@ -157,17 +157,27 @@ h6{
     float: left;
   
   }
+  .over{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-right: 15px ;
+      border-radius: 15px;
+      width: 165px;
+
+  }
   .draw{
       display: flex;
       flex-direction: column;
       justify-content: center;
     background-color: rgba(0,0,0, .1);
+    padding-right: 15px ;
     border-radius: 15px;
     width: 154px;
-    border-style: solid;
-    border-color: #FFFFFF;
-    border-left-width: thick;
     height: 161px;
+    align-items: center;
+    box-shadow: 5px 5px  grey;
   }
   .walk{
     display: flex;
@@ -176,10 +186,9 @@ h6{
     background-color: rgba(0,0,0, .1);
     border-radius: 10px;
     width: 154px;
-    border-style: solid;
-    border-color: #FFFFFF;
-    border-left-width: thick;
     height: 161px;
+    align-items: center;
+    box-shadow: 5px 5px  grey;
   }
   .dance{
     display: flex;
@@ -188,10 +197,9 @@ h6{
     background-color: rgba(0,0,0, .1);
     border-radius: 15px;
     width: 154px;
-    border-style: solid;
-    border-color: #FFFFFF;
-    border-left-width: thick;
     height: 161px;
+    align-items: center;
+    box-shadow: 5px 5px  grey;
   }
   .meditate{
     display: flex;
@@ -200,10 +208,9 @@ h6{
     background-color: rgba(0,0,0, .1);
     border-radius: 15px;
     width: 154px;
-    border-style: solid;
-    border-color: #FFFFFF;
-    border-left-width: thick;
     height: 161px;
+    align-items: center;
+    box-shadow: 5px 5px  grey;
   }
   .color{
     display: flex;
@@ -211,11 +218,10 @@ h6{
     justify-content: center;
     background-color: rgba(0,0,0, .1);
     border-radius: 15px;
-    border-style: solid;
-    border-color: #FFFFFF;
-    border-left-width: thick;
     height: 161px;
     width: 154px;
+    align-items: center;
+    box-shadow: 5px 5px  grey;
   }
   .read{
     display: flex;
@@ -224,10 +230,9 @@ h6{
     background-color: rgba(0,0,0, .1);
     border-radius: 15px;
     width: 154px;
-    border-style: solid;
-    border-color: #FFFFFF;
-    border-left-width: thick;
     height: 161px;
+    align-items: center;
+    box-shadow: 5px 5px  grey;
   }
   /*.nav{
       display: grid;
@@ -237,8 +242,20 @@ h6{
       "ho member rocket likes profile";
   }*/
   .navimg img{
-      padding-top: 35px;
-      width: 386px;
-      
+    margin-top: 15%;
+    width: 386px;
+    border-radius: 12px;
+}
+  a:link {
+    color: none;
   }
-  
+  a:visited {
+    color: none;
+  }
+  a:hover {
+    color: none;
+    text-decoration: none;
+  }
+  a:active {
+    color: none;
+  }
