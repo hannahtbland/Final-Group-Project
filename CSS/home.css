@@ -171,68 +171,68 @@ h6{
       display: flex;
       flex-direction: column;
       justify-content: center;
-    background-color: rgba(0,0,0, .1);
+    background-color: #F2F2F2;
     padding-right: 15px ;
     border-radius: 15px;
     width: 154px;
     height: 161px;
     align-items: center;
-    box-shadow: 5px 5px  grey;
+    box-shadow: 7px 7px 10px -1px rgba(0,0,0,0.17);
   }
   .walk{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgba(0,0,0, .1);
+    background-color:#F2F2F2;
     border-radius: 10px;
     width: 154px;
     height: 161px;
     align-items: center;
-    box-shadow: 5px 5px  grey;
+    box-shadow: 7px 7px 10px -1px rgba(0,0,0,0.17);
   }
   .dance{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgba(0,0,0, .1);
+    background-color: #F2F2F2;
     border-radius: 15px;
     width: 154px;
     height: 161px;
     align-items: center;
-    box-shadow: 5px 5px  grey;
+    box-shadow: 7px 7px 10px -1px rgba(0,0,0,0.17);
   }
   .meditate{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgba(0,0,0, .1);
+    background-color: #F2F2F2;
     border-radius: 15px;
     width: 154px;
     height: 161px;
     align-items: center;
-    box-shadow: 5px 5px  grey;
+    box-shadow: 7px 7px 10px -1px rgba(0,0,0,0.17);
   }
   .color{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgba(0,0,0, .1);
+    background-color: #F2F2F2;
     border-radius: 15px;
     height: 161px;
     width: 154px;
     align-items: center;
-    box-shadow: 5px 5px  grey;
+    box-shadow: 7px 7px 10px -1px rgba(0,0,0,0.17);
   }
   .read{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgba(0,0,0, .1);
+    background-color: #F2F2F2;
     border-radius: 15px;
     width: 154px;
     height: 161px;
     align-items: center;
-    box-shadow: 5px 5px  grey;
+    box-shadow: 7px 7px 10px -1px rgba(0,0,0,0.17);
   }
   /*.nav{
       display: grid;
