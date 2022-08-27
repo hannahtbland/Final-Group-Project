@@ -103,14 +103,28 @@
     border:0;
   }
   .navimg img{
-    margin-top: 17%;
     width: 386px;
     border-radius: 12px;
+    
 }
-.toggle{
-    padding-right:235px;
-    padding-top:25px;
-}
+.timerGrid{
+    display:grid;
+    padding-top:20px;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-areas:
+    "toggle timer animatedTimer" ;
+  }
+  .toggle{
+    grid-area: toggle;
+  }
+  .timer{
+    grid-area:timer;
+  }
+  .animatedTimer{
+    grid-area:animatedTimer;
+  }
+  
+
 /* The switch - the box around the slider */
 .switch {
     position: relative;
@@ -169,16 +183,15 @@
   .slider.round {
     border-radius: 34px;
   }
-  
   .slider.round:before {
     border-radius: 50%;
   }
  /* Animated timer */
   .main,.wave{
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
-    position: absolute;
+    position: relative;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
@@ -193,8 +206,8 @@
 }
 .wave:after{
     content: "";
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     background: rgba(255, 255, 255, 0.8);
     position: absolute;
     left: 50%;
