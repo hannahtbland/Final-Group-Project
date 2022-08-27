@@ -61,7 +61,6 @@ h1{
     margin:0px;
     font-family: inter;
     font-size:14px;
-    font-weight: lighter;
 }
 h5{
     padding-top: 10px;
@@ -163,7 +162,7 @@ p{
     font-family: roboto light;
 }
 .breakact{
-    padding-top: 25px;
+    padding-top: 5px;
 }
 
 /* .day{
@@ -226,7 +225,7 @@ h6{
     width: 154px;
     height: 161px;
     align-items: center;
-    box-shadow: 7px 7px 10px -1px rgba(0,0,0,0.17);
+    /* box-shadow: 7px 7px 10px -1px rgba(0,0,0,0.17); */
   }
   .walk{
     display: flex;
@@ -237,7 +236,7 @@ h6{
     width: 154px;
     height: 161px;
     align-items: center;
-    box-shadow: 7px 7px 10px -1px rgba(0,0,0,0.17);
+    /* box-shadow: 7px 7px 10px -1px rgba(0,0,0,0.17); */
   }
   .dance{
     display: flex;
@@ -248,7 +247,7 @@ h6{
     width: 154px;
     height: 161px;
     align-items: center;
-    box-shadow: 7px 7px 10px -1px rgba(0,0,0,0.17);
+    /* box-shadow: 7px 7px 10px -1px rgba(0,0,0,0.17); */
   }
   .meditate{
     display: flex;
@@ -259,7 +258,7 @@ h6{
     width: 154px;
     height: 161px;
     align-items: center;
-    box-shadow: 7px 7px 10px -1px rgba(0,0,0,0.17);
+    /* box-shadow: 7px 7px 10px -1px rgba(0,0,0,0.17); */
   }
   .color{
     display: flex;
@@ -270,7 +269,7 @@ h6{
     height: 161px;
     width: 154px;
     align-items: center;
-    box-shadow: 7px 7px 10px -1px rgba(0,0,0,0.17);
+    /* box-shadow: 7px 7px 10px -1px rgba(0,0,0,0.17); */
   }
   .read{
     display: flex;
@@ -281,7 +280,7 @@ h6{
     width: 154px;
     height: 161px;
     align-items: center;
-    box-shadow: 7px 7px 10px -1px rgba(0,0,0,0.17);
+    /* box-shadow: 7px 7px 10px -1px rgba(0,0,0,0.17); */
   }
   /*.nav{
       display: grid;
