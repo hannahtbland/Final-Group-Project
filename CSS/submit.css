@@ -2,7 +2,8 @@
     height: 844px;
     width: 390px;
     text-align: center;
-    margin-left: 40%;
+    margin-left: auto;
+    margin-right:auto;
     margin-top: 5%;
     border-radius: 15px;
     justify-content: center;
@@ -31,6 +32,7 @@ button{font-family: 'Roboto', sans-serif;}
    margin-top: 13%;
     margin-left: 6%;
     margin-right: 6%;
+    box-shadow: 0px 4px 20px 0px rgba(137,124,240,0.6);
 }
 .close{
     margin: 5%;
@@ -49,31 +51,32 @@ button{font-family: 'Roboto', sans-serif;}
     width:250px;
 }
 .pplanet{
-    padding: 25px;
+    padding: 10px;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     color: grey;
 }
 .continueBtn{
     background-color:#897CF0;
-    padding-left:20%;
-    padding-right:20%;
-    padding-top:20px;
-    padding-bottom:20px;
-    border-radius:15px;
+    padding-left:48px;
+    padding-right:48px;
+    padding-top:17px;
+    padding-bottom:17px;
+    border-radius:24px;
     border:0;
     color:white;
+    margin-bottom:23px;
 }
 .endWithout{
     padding-top:10px;
 }
 .endSaveBtn{
     background-color:#D0F1FF;
-    padding-left: 53px;
-    padding-right:53px;
-    padding-top:20px;
-    padding-bottom:20px;
-    border-radius:15px;
+    padding-left: 35px;
+    padding-right:35px;
+    padding-top:17px;
+    padding-bottom:17px;
+    border-radius:24px;
     border:0;
     color:black;
 }
@@ -129,6 +132,7 @@ button{font-family: 'Roboto', sans-serif;}
     text-align: left;
     justify-content: flex-start;
     padding-bottom: 20px;
+    cursor: pointer;
 }
 
 .side-menu-icon {
@@ -136,3 +140,36 @@ button{font-family: 'Roboto', sans-serif;}
     width: 30px;
     margin-right: 10px;
 }
+/* Start Bottom Nav Bar*/
+ul{
+    list-style:none;
+}
+.navBar{
+    height: 72px;
+    width: 390px;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 15px;
+}
+.nav_list {
+    height: 72px;
+    width:385px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 45px 0px #A2BBC6;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-right:30px;
+    margin-top: 46px;
+    background-color:white;
+  }
+.rocketImg{
+    position:absolute;
+    top:830px;
+    left:48%;
+}
+li img{
+    cursor: pointer;
+}
+/* End Bottom Nav Bar*/
