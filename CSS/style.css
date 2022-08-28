@@ -15,20 +15,7 @@
     justify-content: center;
     font-family: 'Inter', sans-serif;
 }
-.splashGrid{
-  display:grid;
-  grid-template-rows:75% 25% ;
-  grid-template-areas:
-  "body"
-  "waveBox";
-}
-.body{
-  grid-area: body;
-}
-.waveBox{
-  grid-area:waveBox;
-  margin-top:33px ;
-}
+
 h1{
     font-family: 'Inter', sans-serif;
     font-size: 44px;
@@ -56,23 +43,33 @@ a:link {
  span{
   color:black;
  }
-
+ .splashGrid{
+  display:grid;
+  grid-template-rows:75% 25% ;
+  grid-template-areas:
+  'body'
+  'waveBox';
+}
+.body{
+  grid-area: body;
+}
 .waveBox{
+  grid-area:waveBox;
+  margin-top:33px ;
   position:relative;
   width:390px;
-  height:115px;
+  height:105px;
   overflow:hidden;
   margin-left: 40%;
   margin-right:40%;
   border-radius: 30px;
-  
 }
 .wave{
   position:absolute;
   border-radius: 30px;
   left:0;
   width: 390px;
-  height: 290px;
+  height: 350px;
   background: url(../Images/wave.png);
   background-size:1000px 100px;
 }
