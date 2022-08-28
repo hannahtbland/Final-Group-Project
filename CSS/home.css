@@ -10,6 +10,8 @@
     font-family: 'Inter', sans-serif;
 }
 button{font-family: 'Roboto', sans-serif;}
+.button{font-family: 'Roboto', sans-serif;}
+
 h1{
     font-family: 'Inter', sans-serif;
     font-size: 44px;
@@ -84,7 +86,7 @@ h5{
     flex-direction: column;
     margin-top: 10px;
     padding-top: 10px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
 }
 
 .date{
@@ -130,20 +132,22 @@ h5{
 ul{
     list-style: none;
 }
-.amount h4 p{
-    font-family: 'Inter', sans-serif;
+.amount p{
+    font-family: 'roboto', sans-serif;
+    line-height: 1px;
 
 }
 .amount h4{
     /* padding-top: 1px; */
     font-size: 75px;
-    font-family: roboto light;
+    font-family: 'roboto';
     margin: 1px;
-    
+    font-weight: 200;
 }
 p{
     font-family: roboto medium;
     font-size: 15px;
+    font-weight: 300;
 }
 .day{
     color: black;
@@ -155,14 +159,22 @@ p{
         margin-top: 0;
         margin-bottom: 1rem;
         margin-bottom: 0;
+        font-family: 'roboto', sans-serif;
 }
-
+.wed{
+    font-size: 18px;
+    font-weight: 800;
+}
+figcaption{
+    font-size: 16px;
+}
 .tim p{
     margin-top: 0;
     margin-bottom: 1rem;
     margin-bottom: 0;
     font-size: 28px;
-    font-family: roboto light;
+    font-family: 'roboto', sans-serif;
+    font-weight: 300;
 }
 .breakact{
     padding-top: 5px;
