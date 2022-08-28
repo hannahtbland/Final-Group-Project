@@ -2,7 +2,8 @@
     height: 844px;
     width: 390px;
     text-align: center;
-    margin-left: 40%;
+    margin-left: auto;
+    margin-right:auto;
     margin-top: 5%;
     border-radius: 15px;
     justify-content: center;
@@ -136,7 +137,7 @@ button{font-family: 'Roboto', sans-serif;}
     grid-area:timer;
   }
   .timerText{
-    line-height: 2px;
+    line-height: 1px;
   }
   .timerBtn{
     background:#897CF0;
@@ -147,6 +148,7 @@ button{font-family: 'Roboto', sans-serif;}
     padding-right:30px;
     padding-left:30px;
     padding-top:7px;
+    margin-top:10px;
   }
   .animatedTimer{
     grid-area:animatedTimer;
@@ -176,7 +178,7 @@ button{font-family: 'Roboto', sans-serif;}
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: #897CF0;
     -webkit-transition: .4s;
     transition: .4s;
   }
@@ -194,11 +196,11 @@ button{font-family: 'Roboto', sans-serif;}
   }
   
   input:checked + .slider {
-    background-color: #897CF0;
+    background-color: #ccc;
   }
   
   input:focus + .slider {
-    box-shadow: 0 0 1px #897CF0;
+    box-shadow: 0 0 1px #ccc;
   }
   
   input:checked + .slider:before {
@@ -304,6 +306,7 @@ button{font-family: 'Roboto', sans-serif;}
     text-align: left;
     justify-content: flex-start;
     padding-bottom: 20px;
+    cursor: pointer;
 }
 
 .side-menu-icon {
@@ -311,3 +314,38 @@ button{font-family: 'Roboto', sans-serif;}
     width: 30px;
     margin-right: 10px;
 }
+
+
+/* Start Bottom Nav Bar*/
+ul{
+  list-style:none;
+}
+.navBar{
+  height: 72px;
+  width: 390px;
+  margin-left: auto;
+  margin-right:auto;
+  border-radius: 15px;
+}
+.nav_list {
+  height: 72px;
+  width:385px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 45px 0px #A2BBC6;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding-right:30px;
+  margin-top: 43px;
+  background-color:white;
+}
+.rocketImg{
+  position:absolute;
+  top:830px;
+  left:48%;
+}
+li img{
+  cursor: pointer;
+}
+/* End Bottom Nav Bar*/
