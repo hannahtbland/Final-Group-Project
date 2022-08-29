@@ -4,7 +4,7 @@
     text-align: center;
     margin-left: auto;
     margin-right:auto;
-    margin-top: 5%;
+    margin-top: 80px;
     border-radius: 15px;
     justify-content: center;
     border-style: solid;
@@ -320,13 +320,6 @@ button{font-family: 'Roboto', sans-serif;}
 ul{
   list-style:none;
 }
-.navBar{
-  height: 72px;
-  width: 390px;
-  margin-left: auto;
-  margin-right:auto;
-  border-radius: 15px;
-}
 .nav_list {
   height: 72px;
   width:385px;
@@ -336,14 +329,14 @@ ul{
   box-shadow: 0px 0px 45px 0px #A2BBC6;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  padding-right:30px;
+  padding-right:25px;
+  padding-left:25px;
   margin-top: 43px;
   background-color:white;
 }
 .rocketImg{
-  position:absolute;
-  top:830px;
-  left:48%;
+  align-items: center;
+  margin-bottom: 9%;
 }
 li img{
   cursor: pointer;
