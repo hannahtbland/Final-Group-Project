@@ -20,6 +20,7 @@ h1{
     font-family: 'Inter', sans-serif;
     font-size: 44px;
     color: white;
+    font-weight: 300;
 }
 .top{
     width: 180px;
@@ -42,6 +43,8 @@ a:link {
   }
  span{
   color:black;
+  font-weight:800;
+
  }
  .splashGrid{
   display:grid;
